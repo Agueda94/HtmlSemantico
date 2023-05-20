@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Esto es para poder utilizar el valor relativo rem*/
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+ header{
+    width: 100vw;
+    height: 12vh;
+    border: 0.5rem solid red;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 5.0rem;
+} 
+
+nav{
+    width: 100vw;
+    height: 12vh;
+    border: 0.5rem solid blue;
+}
+
+main{
+    padding: 0;
+    width: 100%;
+    height: 60vh;
+    border: 0.5rem solid blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    width: 50%;
+    height: 100%;
+    border: 0.5rem solid royalblue;
+}
+
+article{
+    width: 50%;
+    height: 100%;
+    border: 0.5rem solid salmon;
+}
+
+footer{
+    width: 100%;
+    height: 15.78vh;
+    border: 0.5rem solid lawngreen;
+}
+
+
+ 
+
