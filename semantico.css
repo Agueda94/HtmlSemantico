@@ -8,58 +8,51 @@
 html{
     font-size: 62.5%;
 }
-body{
+
+.content{
+    display: grid;
     width: 100%;
-    height: 100%;
- 
+    height: 100vh;
+    grid-template-rows: 0.5fr 0.5fr 2.5fr 0.5fr;
 }
 
- header{
-    width: 100vw;
-    height: 12vh;
-    border: 0.5rem solid red;
-}
-
-h1{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 5.0rem;
-} 
-
-nav{
-    width: 100vw;
-    height: 12vh;
-    border: 0.5rem solid blue;
-}
-
-main{
-    padding: 0;
-    width: 100%;
-    height: 60vh;
-    border: 0.5rem solid blueviolet;
+.items{
+    font-size: 5.0rem;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .items:nth-child(1){
+    border: 0.5rem solid red;
+  
+}
+
+
+.content .items:nth-child(2){
+    border: 0.5rem solid blue;
+   
+}
+
+.content .items-main:nth-child(3){
+    border: 0.5rem solid purple;
+   
+}
+.content .items:nth-child(4){
+    border: 0.5rem solid #FF5722;
+    
+}
+.items-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 section{
-    width: 50%;
-    height: 100%;
-    border: 0.5rem solid royalblue;
+    font-size: 10.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5rem solid #EC407A;
 }
 
-article{
-    width: 50%;
-    height: 100%;
-    border: 0.5rem solid salmon;
-}
-
-footer{
-    width: 100%;
-    height: 15.78vh;
-    border: 0.5rem solid lawngreen;
-}
-
-
- 
 
